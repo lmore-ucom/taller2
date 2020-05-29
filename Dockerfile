@@ -1,6 +1,6 @@
 FROM alpine:latest 
 LABEL maintainer="Luis More" 
-LABEL description="Este es nuestro taller 2" 
+LABEL description="Este es nuestro taller 2 intento 2" 
 RUN apk add --update nginx && \
         rm -rf /var/cache/apk/* && \
         mkdir -p /tmp/nginx/ 
